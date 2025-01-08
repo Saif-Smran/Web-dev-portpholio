@@ -209,3 +209,93 @@ main section{
     font-size: 16px;
     text-align: left;
 }
+
+/* Resume Style */
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.res-casd{
+    width: 558px;
+    margin-top: 20px;
+}
+
+hr{
+    width: 95%;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    text-align: left;
+}
+
+.card-subtitle{
+    font-size: 20px;
+    color: #757575;
+    text-align: left;
+}
+
+.card-description{
+    font-size: 16px;
+    color: #757575;
+    text-align: left;
+    width: 85%;
+}
+
+/* Footer Styles */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer-coloum{
+    width: 50%;
+}
+
+.lc{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.ft-sub{
+    font-size: 16px;
+    color: #474747;
+}
+
+footer input[type = "text"] , footer input[type = "email"]{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    display: block;
+    margin: 24px 0;
+    border: none;
+}
+
+footer textarea{
+    width: 80%;
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    display: block;
+    margin: 24px 0;
+    border: none;
+}
